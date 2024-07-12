@@ -69,7 +69,7 @@ https://pan.baidu.com/s/1GDnp_DvvLias_oRdlJGq_Q
 魔力娃娃口算题99页
 链接:https://pan.baidu.com/s/1VuUwkdzAAE8L_JeYltqbcw?pwd=JE74 提取码：JE74 
 
-认识时间钟表【大全套】
+认识时间钟表大全套
 链接:https://pan.baidu.com/s/1DwqXurz_wTtV3cclGsIkdw?pwd=JE74 提取码：JE74 
 
 火花思维1-5阶
@@ -116,7 +116,7 @@ https://pan.baidu.com/s/1gK3fbJWTkg7d_jh0oTFQaA?pwd=8888
 https://pan.baidu.com/s/1Kvalj0_Hd0LTfW19cematw?pwd=8888 
 10. 英语课件：51talk L0-L6、susan教英语
 https://pan.baidu.com/s/16jBLIZchDtKIsKWiuJX8lQ?pwd=8888 
-【最新更新链接】：以上链接如有失效或者想查看最新更新内容看此链接。
+最新更新链接：以上链接如有失效或者想查看最新更新内容看此链接。
 https://pan.baidu.com/s/1vyxj7qvJPJKYJRCvHVjBpQ?pwd=8888 
 
 
@@ -147,19 +147,28 @@ https://pan.baidu.com/s/1ZNQuB-X3MhOIrT3tv4lf3w 
 提取码：man1 
 
 
-## 各种系列
-【常青藤爸爸汇总】 https://pan.baidu.com/s/1XSe9MYLaQHePRFAc18IrDQ?pwd=8888 
-【钱儿爸超级系列】 https://pan.baidu.com/s/1CV-UkYz9g1csbra8lVanbQ?pwd=kimi 
-【王芳系列】 https://pan.baidu.com/s/12L96ZdKyJvOE64Agk5sM2A?pwd=kimi 
-【平哥系列】https://pan.baidu.com/s/1sjuTVyQJzJfroAOec1uHRw?pwd=8888
-【邵鑫系列】 https://pan.baidu.com/s/1ZEvaKVTfV8sNafHNjpLGuw?pwd=kimi 
-【窦神系列】 https://pan.baidu.com/s/1gQ4AF1D1xymoN9OE-dgiyw?pwd=kimi 
-【憨爸系列】 https://pan.baidu.com/s/15fzK-JzQIBdiefxot-UMyg?pwd=8888 
-【浩然爸爸】 https://pan.baidu.com/s/18DQPMG5qcYh_KVYna7v7Ig?pwd=8888 
-【碰碰狐系列】https://pan.baidu.com/s/1ZVjgXpbhZ_DRWfX0zxSMbQ?pwd=kimi
+-------------------------------------------------------------------------
+常青藤爸爸汇总 
+https://pan.baidu.com/s/1XSe9MYLaQHePRFAc18IrDQ?pwd=8888 
+钱儿爸超级系列 
+https://pan.baidu.com/s/1CV-UkYz9g1csbra8lVanbQ?pwd=kimi 
+王芳系列 
+https://pan.baidu.com/s/12L96ZdKyJvOE64Agk5sM2A?pwd=kimi 
+平哥系列
+https://pan.baidu.com/s/1sjuTVyQJzJfroAOec1uHRw?pwd=8888
+邵鑫系列 
+https://pan.baidu.com/s/1ZEvaKVTfV8sNafHNjpLGuw?pwd=kimi 
+窦神系列 
+https://pan.baidu.com/s/1gQ4AF1D1xymoN9OE-dgiyw?pwd=kimi 
+憨爸系列 
+https://pan.baidu.com/s/15fzK-JzQIBdiefxot-UMyg?pwd=8888 
+浩然爸爸 
+https://pan.baidu.com/s/18DQPMG5qcYh_KVYna7v7Ig?pwd=8888 
+碰碰狐系列
+https://pan.baidu.com/s/1ZVjgXpbhZ_DRWfX0zxSMbQ?pwd=kimi
 
 
-## 
+-------------------------------------------------------------------------
 1.小灯塔
 链接:https://pan.baidu.com/s/1iJf30OeUPrg9T18HARcT8A?pwd=acc6?
 提取码:acc6
