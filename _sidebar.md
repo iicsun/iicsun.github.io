@@ -18,6 +18,3 @@
 
 * [纪录片](/Documentary/Documentary.md) 
 
-* [图书馆](/Library/Books.md) 
-
-* [商业](/Business/Index.md) 
