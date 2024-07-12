@@ -4,18 +4,10 @@
 # 0-工具
 ## [单词本](https://wordforest.cn/books) 
 > 英语背单词需要日积月累。
+## [有道单词](https://youdao.com/webwordbook/wordlist)
+
 ## [微软翻译](https://cn.bing.com/translator?ref=TThis&text=Chinese&from=en&to=zh-Hans)
 ## [有道翻译](https://youdao.com/)
-
-
----------------------------------------------------------------------------
-# 1-教材
-## [Think](Language/Thinker/Thinker.md) 
-## [Reach](Language/Reach/Index.md) 
-## [BoxcarChildren](Language/BoxcarChildren/BoxcarChildren.md) 
-## [Peppa Pig](Language/PeppaPig/PeppaPig.md) 
-## [Talk to your child in english](Language/TalkToChild/Index.md) 
-
 
 ---------------------------------------------------------------------------
 # 2-听

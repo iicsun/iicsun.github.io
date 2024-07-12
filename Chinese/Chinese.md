@@ -8,10 +8,10 @@
 2. [文心一言](https://yiyan.baidu.com/)
 3. [学而思九章大模型](https://playground.xes1v1.cn/MathGPT)
 4. [新华字典](https://zidian.gushici.net/)
-5. [汉典](https://www.zdic.net/)
+6. [汉典](https://www.zdic.net/)
 
-6. [带错题本的语文听写工具](https://namibox.com/dictation/dolist?url_content=tape3b/002001_%E8%AF%AD%E6%96%87%EF%BC%88%E4%BA%BA%E6%95%99%E7%BB%9F%E7%BC%96%E7%89%88%EF%BC%89/dictation)
-7. [带手写功能的听写工具](https://superb-alpaca-bd830f.netlify.app/)
+7. [带错题本的语文听写工具](https://namibox.com/dictation/dolist?url_content=tape3b/002001_%E8%AF%AD%E6%96%87%EF%BC%88%E4%BA%BA%E6%95%99%E7%BB%9F%E7%BC%96%E7%89%88%EF%BC%89/dictation)
+8. [带手写功能的听写工具](https://superb-alpaca-bd830f.netlify.app/)
    
 
 ```

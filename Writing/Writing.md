@@ -16,24 +16,4 @@
 
 ---
 
-## [书法练习 唐诗128首](http://192.168.1.111/Writing/shufa-master/book/TangPoem128.html)
-> 写出漂亮好看的唐诗。
-> <br>
----
-
-## [错字本](http://192.168.1.111/Writing/ErrorCollect/Index.html)
-> 平时写错的字积累起来统一复习，提高学习效率。
-> <br>
----
-
-## [电子白板](http://192.168.1.111/Writing/whiteboard/dist/index.html)
-> 可以在这随意写写画画。
-> <br>
-
-
----
-## [电子白板 支持压感](http://192.168.1.111/Writing/draw/index.html)
-> 可以在这随意写写画画，支持数位板压感，笔画粗细随笔而动。
-> <br>
----
   
