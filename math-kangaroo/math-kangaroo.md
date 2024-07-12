@@ -5,18 +5,18 @@ https://math-kangaroo.org.cn/
 
 
 # GEOGEBRA 
-## OkMath¼¸ºÎ»­°åÈí¼ş
+## OkMathå‡ ä½•ç”»æ¿è½¯ä»¶
 https://geogebra.affinitycn.cn/
 
-## ¹ÙÍø¾µÏñÕ¾µã
-https://www.ggb.123.cn(½ø²»È¥ÁË)
+## å®˜ç½‘é•œåƒç«™ç‚¹
+https://www.ggb.123.cn(è¿›ä¸å»äº†)
 
-## ÉçÇø×ÊÔ´
+## ç¤¾åŒºèµ„æº
 https://www.geogebra.org/materials?lang=zh-CN
 
-## geogebraÔ´´úÂë
+## geogebraæºä»£ç 
 https://github.com/geogebra/geogebra?tab=readme-ov-file#readme
 
-## ÀàËÆµÄ¹¤¾ß 
-ÍøÂç»­°å https://www.netpad.net.cn/index.html#/
+## ç±»ä¼¼çš„å·¥å…· 
+ç½‘ç»œç”»æ¿ https://www.netpad.net.cn/index.html#/
 https://www.desmos.com/
