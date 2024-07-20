@@ -1,0 +1,132 @@
+
+@font-face {
+	font-family:family;	
+	src: url('../fonts/family.ttf');	
+}
+
+body {
+	display:inline-flex;
+	height: 100vh;
+	margin: 0;
+}
+
+.content {
+	text-align: left;
+	border: 0px double #999;
+	height: 100vh;
+	width: auto;
+	margin-left:0px;
+	margin-right:0px;
+	overflow-y: auto;
+}
+
+.bishun {
+	display: block;
+	width: 30%;
+}
+
+.wordshow {
+	text-align: left;
+	width: 70%;
+	height: 150px;
+	font-family: zhi;
+	}
+
+
+
+.wordlist {
+	text-align: center;
+	width: 70%;
+	height: 100vh;
+	overflow-y: auto;
+	font-family: zhi;
+	font-size: 40px;
+	}
+
+H5 {
+	background-color: rgb(127, 250, 127);
+	}
+
+ul {
+	display: inline;
+	text-align: left;
+	border: 0px double #999;
+	list-style-type:none;
+	margin:0; 
+	padding:0;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.msg {
+	display: inline;
+	position: relative;
+	width: 300px;
+	height: auto;
+	border-width: 1px;
+
+	}
+
+#word {
+	display: inline;
+	position: relative;
+	width: 300px;
+	font-size:70px;
+	}
+
+.pinyin {
+	display: inline;
+	text-align: left;
+	margin-left:10px;
+	position: relative;
+	width: 100%;
+	font-size:70px;
+	}
+
+.ciyulist{
+	display: inline;
+	background-color: rgb(254, 255, 254);
+	position: relative;
+	width: 100%;
+	font-size:70px;
+	}
+
+.ciyu{
+	display: inline-block;
+	margin-right:30px;
+	}
+
+#word span{
+	background-color: aliceblue;
+	font-size:60px;
+	height: auto;
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+	cursor:hand;
+	cursor:pointer;
+	border-bottom: 1px solid #ff0000;
+}
+
+#word.mi span {
+	background-color: aliceblue;
+	background-size:100% 100%;	
+}
+#word.line span {		
+	border-bottom: 1px solid #ff0000;
+}
+.opr{
+	margin: 20px;
+	text-align: center;
+}
+.opr button{
+	font-size: 120%;
+	margin: 0px 30px;
+}

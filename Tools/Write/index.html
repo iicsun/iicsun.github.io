@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+	<title>汉字积累</title>
+	<script type="text/javascript" src="js/loadfont.js"></script>
+	<script src="js/hanzi-writer.min.js"></script>
+	
+	
+	<script type="text/javascript" src="../pinyinjs-master/dict/pinyin_dict_withtone.js"></script>
+	<script type="text/javascript" src="../pinyinjs-master/dict/pinyin_dict_polyphone.js"></script>
+	<script type="text/javascript" src="../pinyinjs-master/pinyinUtil.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/shufa.css" />
+	<style type="text/css">
+	body{font-family: 'Microsoft Yahei'; font-size: 16px;}
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	input[type="text"] {
+		height: 34px;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	}
+	input[type="text"]:focus {
+		border-color: #66afe9;
+		outline: 0;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	}
+	#test {width: 300px;}
+	h2 {
+		background-color: #3199E4;
+		color: white;
+		padding: 2px 8px;
+		border-radius: 5px;
+		font-size: 30px;
+		line-height: 1.5;
+		text-shadow: 1px 1px 1px black;
+		width: 800px;
+	}
+	h2 > span {
+		color: #B10000;
+		font-size: 0.8em;
+	}
+	#test {margin-top: 10px;}
+	.loading-tip{color: #00960A;margin-bottom: 10px;}
+	.container {
+		width: 1024px;
+		margin: 20px auto;
+	}
+	</style>
+</head>
+
+<body>
+<!-- <div id='bishun'>
+	<div id='model' class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-content">
+			<span id='chazi' style="display: none" ></span>
+			<div id="character-target-div"></div>
+			<div id="character-target-div-2"></div>
+
+		</div>  
+	</div>
+</div> -->
+
+<div class = "content">
+
+
+	<div id='wordlist'>
+		<H5 id="chapter_00">四年级上册</H5><br>
+		<a href="#chapter_01">第1课《观潮》</a><br>
+		<a href="#chapter_02">第2课《走月亮》</a><br>
+		<a href="#chapter_03">第5课《一个豆荚里的五粒豆》</a><br>
+		<a href="#chapter_06">第6课《蝙蝠和雷达》</a><br>
+		<a href="#chapter_07">第7课《呼风唤雨的世纪》</a><br>
+		<a href="#chapter_09">第9课《古诗词三首》</a><br>
+		<a href="#chapter_10">第10课《爬山虎的脚》</a><br>
+		<a href="#chapter_11">第11课《蟋蟀的住宅》</a><br>
+		<a href="#chapter_12">第12课《盘古开天地》</a><br>
+		<a href="#chapter_13">第13课《精卫填海》</a><br>
+		<a href="#chapter_14">第14课《普罗米修斯》</a><br>
+		<a href="#chapter_16">第16课《麻雀》</a><br>
+		<a href="#chapter_17">第17课《爬天都峰》</a><br>
+		<a href="#chapter_18">第18课《牛和鹅》</a><br>
+		<a href="#chapter_19">第19课《一只窝囊的大老虎》</a><br>
+		<a href="#chapter_20">第20课《陀螺》</a><br>
+		<a href="#chapter_21">第21课《古诗三首》</a><br>
+		<a href="#chapter_22">第22课《为中华之崛起而读书》</a><br>
+		<a href="#chapter_25">第25课《王戎不取道旁李》</a><br>
+		<a href="#chapter_26">第26课《西门豹治邺》</a><br>
+
+		<div id='word'>
+			
+			<H5 id="chapter_01">第1课《观潮》</H5>
+			<ul>
+			<li>潮 热潮 观潮 心潮澎湃</li>
+			<li>据 据守 据说 据为己有</li>
+			<li>堤 河堤 大堤 千里之堤</li>
+			<li>阔 广阔 宽阔 高谈阔论</li>
+			<li>笼 箱笼 笼罩 笼络人心</li>
+			<li>罩 罩住 口罩 罩起来</li>
+			<li>盼 期盼 盼望 左顾右盼</li>
+			<li>滚 翻滚 滚动 滚瓜烂熟</li>
+			<li>顿 顿悟 顿时 茅塞顿开</li>
+			<li>逐 追逐 逐渐 随波逐流</li>
+			<li>渐 渐渐 渐变 循序渐进</li>
+			<li>犹 犹豫 犹如 虽死犹生</li>
+			<li>崩 崩溃 崩盘 土崩瓦解</li>
+			<li>震 地震 震动 震耳欲聋</li>
+			<li>余 剩余 余波 高兴之余</li>
+			</ul>
+
+
+			<H5 id="chapter_02">第2课《走月亮》</H5>
+			<ul>
+			<li>淘 淘洗 淘米 淘气</li>
+			<li>牵 牵挂 牵制 魂牵梦绕</li>
+			<li>鹅 鹅掌 鹅蛋 鹅毛</li>
+			<li>卵 鸟卵 鸡卵 孵卵</li>
+			<li>坑 坑洼 水坑 泥坑</li>
+			<li>洼 水洼 山洼 坑坑洼洼</li>
+			<li>填 填写 填平 义愤填膺</li>
+			<li>庄 庄稼 庄严</li>
+			<li>稼 庄稼 稼穑 庄稼汉</li>
+			<li>俗 俗语 俗气 庸俗</li>
+			<li>跃 跃进 飞跃 龙腾虎跃</li>
+			<li>葡 葡萄 葡糖 葡萄酒</li>
+			<li>萄 葡萄 葡萄干 葡萄架</li>
+			<li>稻 水稻 旱稻 稻米</li>
+			<li>熟 成熟 熟睡 熟悉</li>
+			</ul>
+
+
+			<H5 id="chapter_03">第5课《一个豆荚里的五粒豆》</H5>
+			<ul>
+			<li>豌 豌豆</li>
+			<li>按 按照 按理 按铃</li>
+			<li>舒 舒服 舒适 舒展</li>
+			<li>适 合适 适龄 适用</li>
+			<li>恐 恐龙 恐怕 恐惧</li>
+			<li>僵 僵硬 冻僵 僵持</li>
+			<li>硬 坚硬 硬件 欺软怕硬</li>
+			<li>枪 手枪 枪支 激光枪</li>
+			<li>耐 耐心 忍耐 吃苦耐劳</li>
+			<li>探 探身 探头 探望</li>
+			<li>愉 愉快 愉悦 欢愉</li>
+			<li>曾 曾经 未曾 何曾</li>
+			</ul>
+
+
+			<H5 id="chapter_06">第6课《蝙蝠和雷达》</H5>
+			<ul>
+			<li>达 到达 达成 通达</li>
+			<li>蚊 蚊子 蚊香 蚊帐</li>
+			<li>即 即使 即刻 即日</li>
+			<li>科 科学 科技 科目</li>
+			<li>横 纵横 横行霸道 横冲直撞</li>
+			<li>竖 竖起 横竖 竖立</li>
+			<li>绳 绳索 缆绳 跳绳</li>
+			<li>系 系上 系扣 系鞋带</li>
+			<li>蝇 苍蝇 蝇子 果蝇</li>
+			<li>证 证明 证据 证人</li>
+			<li>研 研究 钻研 研读</li>
+			<li>究 究竟 终究 深究</li>
+			<li>驾 驾驶 驾车 驾临</li>
+			<li>驶 驶向 驶入 行驶</li>
+			</ul>
+
+
+			<H5 id="chapter_07">第7课《呼风唤雨的世纪》</H5>
+			<ul>
+			<li>唤 唤醒 叫唤 呼唤</li>
+			<li>纪 世纪 纪念 纪年</li>
+			<li>技 技艺 技术 口技</li>
+			<li>改 改正 修改 改变</li>
+			<li>程 程度 日程 方程</li>
+			<li>超 超过 超越 超额</li>
+			<li>亿 亿万 百亿 十亿</li>
+			<li>核 核能 核心 核潜艇</li>
+			<li>奥 深奥 奥妙 奥运会</li>
+			<li>益 益处 益鸟 日益增长</li>
+			<li>联 联系 联合 联结</li>
+			<li>质 物质 体质 本质</li>
+			<li>哲 哲理 哲人 哲学</li>
+			<li>任 任何 任凭 担任</li>
+			<li>善 改善 善心 善良</li>
+			</ul>
+
+			<H5 id="chapter_09">第9课《古诗词三首》</H5>
+			<ul>
+			<li>暮 暮色 朝暮 暮春 暮年 晨钟暮鼓</li>
+			<li>吟 吟诗 吟诵 吟咏 呻吟 吟风弄月</li>
+			<li>题 题字 题目 题材 问题 文不对题</li>
+			<li>侧 侧面 侧重 一侧 侧身 旁敲侧击</li>
+			<li>峰 山峰 峰顶 高峰 洪峰 峰回路转</li>
+			<li>庐 茅庐 庐舍 草庐 庐山</li>
+			<li>缘 缘由 边缘 缘分 有缘 无缘无故</li>
+			<li>降 投降 降伏 降服 宁死不降 降龙伏虎</li>
+			<li>阁 阁楼 阁下 出阁 闺阁 亭台楼阁</li>
+			<li>费 花费 消费 费力 收费 煞费苦心</li>
+			<li>须 必须 无须 胡须 触须 花须 根须</li>
+			<li>逊 逊色 谦逊 稍逊一筹 出言不逊</li>
+			<li>输 输赢 认输 输血 输送 满盘皆输</li>
+			</ul>
+
+
+			<H5 id="chapter_10">第10课《爬山虎的脚》</H5>
+			<ul>
+			<li>虎 老虎 猛虎 虎牙 虎口 虎将 爬山虎</li>
+			<li>操 操劳 操持 操守 操场 重操旧业</li>
+			<li>占 占有 占领 占用 攻占 占优势</li>
+			<li>嫩 娇嫩 柔嫩 嫩芽 嫩绿 细皮嫩肉</li>
+			<li>顺 顺利 顺风 顺序 顺心一帆风顺</li>
+			<li>均 平均 均匀 人均 均衡 势均力敌</li>
+			<li>叠 重叠 叠加 堆叠 折叠 重峦叠嶂</li>
+			<li>隙 间隙 缝隙 空隙 嫌隙 无隙可乘</li>
+			<li>茎 根茎 茎部 茎叶 块茎 枯茎朽骨</li>
+			<li>柄 叶柄 把柄 笑柄 斧柄 话柄</li>
+			<li>萎 枯萎 萎谢 衰萎 萎缩 萎靡不振</li>
+			<li>瞧 瞧见 瞧病 瞧不起</li>
+			<li>固 牢固 坚固 固体 固然 固执己见</li>
+			</ul>
+
+
+			<H5 id="chapter_11">第11课《蟋蟀的住宅》</H5>
+			<ul>
+			<li>宅 住宅 宅院 家宅 民宅 深宅大院</li>
+			<li>临 临时 降临 临别 临摹 临阵脱逃</li>
+			<li>慎 慎重 谨慎 不慎 慎言 慎行</li>
+			<li>选 挑选 选择 选用 选拔 人选 选手</li>
+			<li>择 选择 择优 择业 抉择 饥不择食</li>
+			<li>址 住址 地址 遗址 校址 旧址 故址</li>
+			<li>良 良好 善良 良心 良久 良师益友</li>
+			<li>穴 巢穴 洞穴 穴位 空穴来风 龙潭虎穴</li>
+			<li>厅 客厅 餐厅 展厅 厅堂 办公厅</li>
+			<li>卧 卧室 卧铺 卧倒 仰卧 藏龙卧虎</li>
+			<li>专 专心 专门 专利 专业 专心致志</li>
+			<li>寸 尺寸 寸步 寸心 寸土 鼠目寸光</li>
+			<li>卫 卫生 自卫 警卫 卫星 保家卫国</li>
+			<li>较 较好 较量 较劲 比较 斤斤计较</li>
+			</ul>
+
+
+			<H5 id="chapter_12">第12课《盘古开天地》</H5>
+			<ul>
+			<li>翻 翻身 翻阅 翻修 翻番 翻山越岭</li>
+			<li>劈 劈开 劈木头 雷劈 劈波斩浪</li>
+			<li>缓 缓慢 迟缓 缓刑 缓和 刻不容缓</li>
+			<li>浊 污浊 浑浊 清浊 浊世 浊声浊气</li>
+			<li>丈 —丈 万丈 丈量 丈地 一落千丈</li>
+			<li>撑 支撑 撑船 撑伞 撑起 撑竿跳高</li>
+			<li>竭 枯竭 衰竭 竭力 竭诚 竭尽全力</li>
+			<li>累 累倒 劳累 受累 疲累 累死累活</li>
+			<li>血 输血 热血 心血 血统 血气方刚</li>
+			<li>液 液体 血液 输液 汁液 琼浆玉液</li>
+			<li>奔 奔跑 飞奔 奔驰 奔流不息 东奔西走</li>
+			<li>茂 茂密 茂盛 繁茂 根深叶茂 声情并茂</li>
+			<li>滋 滋润 滋味 滋补 滋长 有滋有味</li>
+			</ul>
+
+
+			<H5 id="chapter_13">第13课《精卫填海》</H5>
+			<ul>
+			<li>帝 皇帝 帝国 帝王 天帝 玉皇大帝</li>
+			<li>曰 子曰诗云 美其名曰</li>
+			<li>溺 溺死 沉溺 溺爱 溺水身亡</li>
+			<li>返 返回 返航 往返 流连忘返 返老还童</li>
+			<li>衔 衔接 头衔 军衔 燕子衔泥 日已衔山</li>
+			</ul>
+
+
+			<H5 id="chapter_14">第14课《普罗米修斯》</H5>
+			<ul>
+			<li>悲 悲惨 悲痛 悲观 慈悲 悲欢离合</li>
+			<li>惨 凄惨 悲惨 惨烈 惨败 惨无人道</li>
+			<li>兽 猛兽 野兽 兽医 兽行 人面兽心</li>
+			<li>佩 佩服 钦佩 佩戴 玉佩 可敬可佩</li>
+			<li>坚 坚持坚定 坚固 坚强 坚硬 无坚不摧</li>
+			<li>违 违背 违抗 违法 久违 阳奉阴违</li>
+			<li>抗 违抗 抗拒 抗争 抗衡 分庭抗礼</li>
+			<li>环 花环 耳环 环绕 环境 环环相扣</li>
+			<li>锁 锁门 封锁 锁定 枷锁 闭关锁国</li>
+			<li>既 既而 既然 既快又好 既往不咎</li>
+			<li>狠 狠心 狠毒 凶狠 狠命 恶狠狠 心狠手辣</li>
+			<li>著 显著 著名 卓著 名著 著作 编著</li>
+			<li>愤 气愤 愤怒 愤恨 愤世嫉俗 愤愤不平</li>
+			<li>获 获得 捕获 获胜 收获 不劳而获</li>
+			</ul>
+
+
+			<H5 id="chapter_16">第16课《麻雀》</H5>
+			<ul>
+			<li>嗅 嗅觉 嗅到 嗅神经</li>
+			<li>呆 发呆 痴呆 呆滞</li>
+			<li>奈 奈何 无奈 无可奈何</li>
+			<li>巢 巢穴 蜂巢 匪巢</li>
+			<li>齿 牙齿 口齿 齿轮</li>
+			<li>躯 躯体 躯壳 身躯</li>
+			<li>掩 掩饰 掩盖 掩埋</li>
+			<li>护 护卫 护理 护航</li>
+			<li>幼 幼稚 幼苗 幼年</li>
+			<li>搏 搏击 搏战 搏斗</li>
+			<li>庞 庞大 脸庞 庞然大物</li>
+			<li>量 力量 气量 饭量</li>
+			<li>愣 发愣 愣住 愣神</li>
+			</ul>
+
+
+			<H5 id="chapter_17">第17课《爬天都峰》</H5>
+			<ul>
+			<li>哩 在山上哩！还没来哩！</li>
+			<li>级 石级 年级 高级 低级 上级 等级</li>
+			<li>链 铁链 项链 链接 锁链 手表链</li>
+			<li>颤 发颤 颤抖 颤动 颤音 颤颤悠悠</li>
+			<li>攀 攀登 攀岩 攀扯 攀谈 攀亲道故</li>
+			<li>猴 猴子 猴头 猴戏 猴年马月</li>
+			<li>鲫 鲫鱼 过江之鲫</li>
+			<li>念 念头 思念 想念 念小学 念念不忘</li>
+			<li>辫 辫子 小辫儿 麻花辫 扎辫子</li>
+			<li>呵 呵斥 呵责 呵气 笑呵呵</li>
+			</ul>
+
+
+			<H5 id="chapter_18">第18课《牛和鹅》</H5>
+			<ul>
+			<li>摸 抚摸 触摸 摸奖 摸索 摸爬滚打</li>
+			<li>甚 甚至 甚而 甚佳 不求甚解</li>
+			<li>跪 跪伏 罚跪 跪拜 跪着 三跪九叩</li>
+			<li>捶 捶胸 捶打 捶背 捶腿 捶胸顿足</li>
+			<li>顽 顽童 顽皮 顽固 顽强 顽固不化</li>
+			<li>脖 鸭脖 脖子 围脖 脖颈儿</li>
+			<li>脱 脱落 脱皮 摆脱 脱掉 脱胎换骨</li>
+			<li>娴 梗概 大概 概括 气概 以偏概全</li>
+			<li>惹 惹事 惹祸 招惹 惹人喜爱</li>
+			<li>昏 昏沉 昏乱 黄昏 昏暗 天昏地暗</li>
+			<li>握 握手 把握 掌握 握拳 握手言欢</li>
+			<li>摔 摔伤 摔倒 摔跤 摔打 摔跟头</li>
+			<li>凭 全凭 凭借 任凭 文凭 真凭实据</li>
+			<li>掐 掐指 掐算 掐住 掐花 掐头去尾</li>
+			</ul>
+
+
+			<H5 id="chapter_19">第19课《一只窝囊的大老虎》</H5>
+			<ul>
+			<li>段 片段 选段 管段 手段</li>
+			<li>俩 伎俩 他俩 娘俩 爷俩</li>
+			<li>练 教练 练习 排练 练笔</li>
+			<li>裤 筒裤 裤裆 裤兜 裤管</li>
+			<li>逃 逃走 逃跑 逃荒 卷逃</li>
+			<li>罩 笼罩 罩袖 口罩 灯罩</li>
+			<li>亏 幸亏 血亏 亏待 得亏</li>
+			<li>挖 挖掘 挖苦 挖潜 挖方</li>
+			<li>撤 撤销 撤差 撤职 撤回</li>
+			<li>堂 礼堂 课堂 堂倌 名堂</li>
+			<li>砸 砸碎 砸锅 砸蛋 砸钱</li>
+			<li>锅 沙锅 锅台 锅炉 锅子</li>
+			</ul>
+
+
+			<H5 id="chapter_20">第20课《陀螺》</H5>
+			<ul>
+			<li>否 否则 是否 否认 否定 否决 可否</li>
+			<li>旋 旋转 盘旋 回旋 螺旋 凯旋 旋即</li>
+			<li>况 况且 情况 实况 近况 以古况今</li>
+			<li>兵 官兵 士兵 兵器 兵法 纸上谈兵</li>
+			<li>败 失败 战败 打败 败兴 身败名裂</li>
+			<li>仍 仍然 仍旧 仍是 仍操旧业</li>
+			<li>尤 尤其 尤甚 尤为 尤妙 怨天尤人</li>
+			<li>恨 悔恨 遗恨 怨恨 仇恨 恨入骨髓</li>
+			<li>帅 帅气 元帅 统帅 帅才 将帅 挂帅</li>
+			<li>预 预料 预备 预先 预见 预约 干预</li>
+			<li>溃 溃败 溃散 崩溃 溃决 溃不成军</li>
+			<li>品 品茶 食品 商品 人品 品学兼优</li>
+			<li>丑 丑陋 丑态 丑名 出丑 家丑 丑小鸭</li>
+			<li>豪 自豪 英豪 文豪 豪爽 豪言壮语</li>
+			</ul>
+
+
+			<H5 id="chapter_21">第21课《古诗三首》</H5>
+			<ul>
+			<li>塞 关塞 要塞 边塞 塞外 塞翁失马</li>
+			<li>秦 秦代 秦朝 秦岭 秦始皇 朝秦暮楚</li>
+			<li>征 征战 出征 征程 征文 南征北战</li>
+			<li>词 宋词 填词 词语 歌词 义正词严</li>
+			<li>催 催促 催命 催化 催眠 催人泪下</li>
+			<li>醉 醉鬼 醉酒 陶醉 沉醉 醉生梦死</li>
+			<li>杰 英杰 豪杰 杰出 杰作 人杰地灵</li>
+			<li>亦 亦然 人云亦云 亦庄亦谐</li>
+			<li>雄 枭雄 英雄 雄伟 雄鸡 雄心壮志</li>
+			<li>项 强项 项目 款项 项圈 望其项背</li>
+			</ul>
+
+
+			<H5 id="chapter_22">第22课《为中华之崛起而读书》</H5>
+			<ul>
+			<li>肃 严肃 肃穆 肃静 肃立 肃贪</li>
+			<li>晰 清晰 明晰</li>
+			<li>振 振作 振奋 振兴 振动 振笔直书</li>
+			<li>胸 胸膛 胸脯 心胸 胸怀 胸有成竹</li>
+			<li>怀 怀疑 胸怀 怀抱 怀念 怀才不遇</li>
+			<li>赞 赞叹 赞扬 赞助 赞成 赞不绝口</li>
+			<li>效 效法 效仿 功效 效果 效力</li>
+			<li>疑 猜疑 怀疑 可疑 疑问 半信半疑</li>
+			<li>惑 解惑 疑惑 困惑 诱惑 迷惑不解</li>
+			<li>凡 非凡 平凡 凡事 凡例 不同凡响</li>
+			<li>顾 回顾 环顾 照顾 光顾 左顾右盼</li>
+			<li>训 训斥 教训 遗训 培训 训练</li>
+			<li>斥 痛斥 斥责 排斥 斥资 充斥</li>
+			</ul>
+
+
+			<H5 id="chapter_25">第25课《王戎不取道旁李》</H5>
+			<ul>
+			<li>戎 戎马 戎装 兵戎 戎狄 投笔从戎</li>
+			<li>尝 未尝 尝试 何尝 品尝 尝鲜 浅尝</li>
+			<li>诸 诸子 诸位 诸侯 诸多 付诸实施</li>
+			<li>竞 竞选 竞争 竞技 竞赛 竞相开放</li>
+			<li>唯 唯一 唯独 唯恐 唯利是图 唯唯诺诺</li>
+			</ul>
+
+
+			<H5 id="chapter_26">第26课《西门豹治邺》</H5>
+			<ul>
+			<li>豹 豹子 猎豹 雪豹 豹子胆 管中窥豹</li>
+			<li>派 指派 派送 气派 派别 派头十足</li>
+			<li>娶 迎娶 嫁娶 娶亲 娶妻生子</li>
+			<li>媳 孙媳 媳妇 婆媳 儿媳 弟媳</li>
+			<li>妇 少妇 夫妇 妇女 妇人 夫唱妇随</li>
+			<li>淹 淹水 淹死 淹没 淹留 淹博</li>
+			<li>逼 威逼 逼迫 逼近 逼真 逼不得已</li>
+			<li>浮 悬浮 漂浮 浮现 浮夸 浮出水面</li>
+			<li>旱 耐旱 旱灾 旱情 旱涝 干旱</li>
+			<li>徒 师徒 徒弟 学徒 徒手 徒劳无功</li>
+			<li>扔 扔砖 扔球 扔掉 扔垃圾</li>
+			<li>饶 饶命 饶恕 求饶 富饶 不依不饶</li>
+			<li>骗 蒙骗 骗人 受骗 骗取 骗钱</li>
+			<li>灌 灌注 浇灌 灌溉 灌木 醍醐灌顶</li>
+			<li>溉 灌溉 浇溉</li>
+			</ul>
+
+		</div>
+	</div>	
+</div>
+
+
+<script>
+	var myfonts = {}
+	var fmly_font = 'zhi';
+	loadFont(fmly_font);
+	setFont(fmly_font);
+	AddActionProcess();
+
+	// var writer = HanziWriter.create('character-target-div', '永', {
+	// 	width: 300,
+	// 	height: 300,
+	// 	padding: 5,
+	// 	delayBetweenLoops: 1000,
+	// 	strokeAnimationSpeed: 2, // 5x normal speed
+  	// 	delayBetweenStrokes: 750, // milliseconds
+	// 	showOutline: true
+	// });
+	// writer.charDataLoader = function(char, onComplete) {
+	// 		$.getJSON("../js/hanzi-writer-data-master/data/" + char + ".json", function(charData) {
+	// 			onComplete(charData);
+	// 		});
+	// 	};
+
+
+	// var writer2 = HanziWriter.create('character-target-div-2', '永', {
+	// 	width: 100,
+	// 	height: 100,
+	// 	padding: 5,
+	// 	radicalColor: '#FD0000' 
+	// });
+	// writer2.charDataLoader = function(char, onComplete) {
+	// 		$.getJSON("../js/hanzi-writer-data-master/data/" + char + ".json", function(charData) {
+	// 			onComplete(charData);
+	// 		});
+	// 	};
+
+	function model(b){
+		if(b)
+			$('model').classList.add('is-active')
+		else
+			$('model').classList.remove('is-active')
+	}
+	
+	function anima(obj) {
+		$('chazi').innerText = obj.innerText
+		writer.setCharacter(obj.innerText); 
+		writer.loopCharacterAnimation();
+		writer2.setCharacter(obj.innerText); 
+		model(true)
+
+
+	}
+
+	function zidian(obj){
+		window.open('https://hanyu.baidu.com/s?wd=' + obj.innerText + '&ptype=zici')
+	}
+	function detail_hanzi(obj){
+		window.open('https://hanyu.baidu.com/s?wd=' + obj + '&ptype=zici')
+	}
+	function detail_ciyu(obj){
+		window.open('https://hanyu.baidu.com/s?wd=' + obj.innerText + '&ptype=zici')
+	}
+
+	function SearchByAudio(){
+		window.open('https://cn.bing.com/?scope=web&FORM=ANNTH1&pc=LCTS')
+		}
+	
+
+	function $(id){
+		return document.getElementById(id);
+	}
+
+	function loadFont(family) {
+		const font = new FontFace(
+			family,
+			"url(" + "./fonts/" + family + ".ttf" + ")"
+		);
+		font.load();
+		document.fonts.add(font);	
+		myfonts[family]=true;
+	}
+	
+	function setFont(family){
+		if( myfonts[family] == undefined ){		
+			console.log('正在装载字体：'+family)
+			loadFont(family)		
+		}
+	}
+
+	function renderFanningStrokes(target, strokes) {
+		var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+		svg.style.width = '75px';
+		svg.style.height = '75px';
+		svg.style.border = '1px solid #EEE'
+		svg.style.marginRight = '3px'
+		target.appendChild(svg);
+		var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+		// set the transform property on the g element so the character renders at 75x75
+		var transformData = HanziWriter.getScalingTransform(75, 75);
+		group.setAttributeNS(null, 'transform', transformData.transform);
+		svg.appendChild(group);
+
+		strokes.forEach(function(strokePath) {
+			var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+			path.setAttributeNS(null, 'd', strokePath);
+			// style the character paths
+			path.style.fill = '#555';
+			group.appendChild(path);
+		});
+	}
+
+
+
+	function AddActionProcess(){	
+		//var elements = document.getElementById('ErrorList');
+		var lis = document.getElementsByTagName('li');
+		var bishun_html = ''
+		var pinyin_html = '';
+		var bushou_html = '';
+		for (var id = 0; id < lis.length; id++) {
+			var word = lis[id].innerText;
+			var value = word[0];
+			var ciyu = word.slice(1);
+			var ciyu_list = word.split(" ");
+
+			lis[id].innerHTML = "";
+			var div = document.createElement("div");
+			div.setAttribute("style","text-align: left; background-color: aliceblue; margin:5px; padding:5px;");
+			lis[id].appendChild(div);
+			var parent = div;
+
+			
+			//单个汉字增加拼音
+			var pinyin = '';
+			if(value)
+			{
+				pinyin = pinyinUtil.getPinyin(value, ' ', true, true); 
+			}
+
+			pinyin_html = '<div class="pinyin"; style="font-size: 45px;text-align: left;" >';
+			pinyin_html += pinyin;
+			pinyin_html += '</div>';
+			
+			//单个汉字增加手写字体和笔顺动画
+			bishun_html='';
+			//bishun_html = '<div style="font-family: zhi; text-align: center;" onmouseover ="anima(this)" onclick="zidian(this)" >';
+			bishun_html = '<div style="font-family: zhi; text-align: left;"  onclick="zidian(this)" >';
+			bishun_html +=	value;
+			bishun_html +=  '</div>';
+			
+			//parent.innerHTML = pinyin_html +  bishun_html;
+			parent.innerHTML = pinyin_html;
+
+			//单个汉字增加部首突出显示
+			//bushou_html = "<div id = \'div";
+			//bushou_html +=	id.toString();
+			//bushou_html += "\' >";
+			//bushou_html +=	value;
+			//bushou_html +=  '</div>';
+
+			//动态创建和添加 div【生字】
+			var div = document.createElement("div");
+			div.setAttribute("id", "Div_bishun_"+id.toString());
+			div.setAttribute("alt", value);
+			div.setAttribute("onclick", "detail_hanzi('" + value + "')");
+			parent.appendChild(div);
+			
+
+			var writer = HanziWriter.create("Div_bishun_"+id.toString(), '永', {
+				width: 75,
+				height: 75,
+				padding: 5,
+				delayBetweenLoops: 1000,
+				strokeAnimationSpeed: 2, // 5x normal speed
+				delayBetweenStrokes: 750, // milliseconds
+				showOutline: true,
+				radicalColor: '#168F16' 
+			});
+			writer.setCharacter(value); 
+			writer.loopCharacterAnimation();
+
+
+			//动态创建和添加 div 【词语】
+			var ciyu_list_div = document.createElement("div");
+			ciyu_list_div.setAttribute("id", "Div_ciyu_"+id.toString());
+			ciyu_list_div.setAttribute("style","font-family: zhi; text-align: left;");
+			for (var ciyu_id = 1; ciyu_id < ciyu_list.length; ciyu_id++)
+			{
+				var div = document.createElement("div");
+				div.setAttribute("class", "ciyu");
+				div.setAttribute("onclick", "detail_ciyu(this)");
+				div.innerText = ciyu_list[ciyu_id];
+				ciyu_list_div.appendChild(div);
+			}
+			parent.appendChild(ciyu_list_div);
+
+
+			
+
+
+			// var div2 = document.createElement("div");
+			// div2.setAttribute("id", "Div_bishun_detail_"+id.toString());
+			// parent.appendChild(div2);
+
+			// HanziWriter.loadCharacterData('好').then(function(charData) {	
+			// for (var i = 0; i < charData.strokes.length; i++) {
+			// 	var strokesPortion = charData.strokes.slice(0, i + 1);
+			// 	renderFanningStrokes(div2, strokesPortion);
+			// }
+			// });
+
+		  }
+
+
+	}
+</script>
+
+</body>
+</html>
