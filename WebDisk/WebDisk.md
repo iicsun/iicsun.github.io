@@ -196,3 +196,39 @@ https://pan.baidu.com/s/1ZVjgXpbhZ_DRWfX0zxSMbQ?pwd=kimi
 十套英语名著与课程精讲
 链接:https://pan.baidu.com/s/1u0iiYnRPLj9c5ulTA1hXGg?pwd=iv8v?提取码:iv8v
 <br>
+
+----------------------------------------------------------------------------
+小公主苏菲亚第一季 Sofia the First Season 1 英文版全集下载
+链接：https://pan.baidu.com/share/init?surl=bbkFL0
+提取码：a5di
+
+小公主苏菲亚第二季 Sofia the First Season 2 全28集
+链接：https://pan.baidu.com/share/init?surl=gebGvS3
+提取码：9s8j
+
+小公主苏菲亚第三季1080p mkv 29集 Sofia the First
+链接：https://pan.baidu.com/share/init?surl=kiwrfa-Q7_n_JwTvgaBT2g
+提取码： e10y
+
+-------------------------------------------------------------------------
+小屁孩日记电子书1-16全集（PDF)
+链接:https://pan.baidu.com/s/1Bi6cxyykhK5N2RbWnTStQg 
+提取码:9thm
+
+小屁孩日记1-11电子书音频链接：
+https://pan.baidu.com/s/1WUbG2o4VqLVdf86QgAD-6A 
+提取码：d6m8
+
+小屁孩日记电影1-3
+链接：https://pan.baidu.com/s/1VptutY5bs8DtbN_MT5xuxQ 
+提取码：21hp
+
+
+---------------------------------------------------------------------
+https://www.schooltube.com/
+
+TIME for Kids - 专门为小学生提供新闻报道，帮助他们了解世界。
+网址: timeforkids.com
+
+Storyline Online - 提供名人朗读的在线故事书，有助于提高听力和阅读能力。
+网址: storylineonline.net
