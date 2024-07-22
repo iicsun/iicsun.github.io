@@ -1,0 +1,33 @@
+body{
+	font-size: 120%;
+}
+
+div{
+	font-size: 180%;
+	text-align:center;
+}
+
+.mulu{
+	font-size: 130%;
+	text-align:left;
+	margin-left:100px;
+}
+
+p img {
+	vertical-align:middle;
+	cursor:hand;
+	width:25px;
+}
+a{
+	text-decoration:none;
+	color: blue
+}
+h4 a {
+	font-size: 80%;
+	font-weight:normal;
+	margin-left:10px
+}
+.mulu a {
+  display: block;
+  font-size: 120%;
+}

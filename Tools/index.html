@@ -1,0 +1,289 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="full-screen" content="yes">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	<title>汉字查询</title>
+
+	
+	<script src="js/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./pinyinjs-master/dict/pinyin_dict_withtone.js"></script>
+	<script type="text/javascript" src="./pinyinjs-master/dict/pinyin_dict_polyphone.js"></script>
+	<script type="text/javascript" src="./pinyinjs-master/pinyinUtil.js"></script>
+
+	<script src="./cnchar/cnchar_js/cnchar.all.min.js"></script>
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar/cnchar.min.js"></script> -->
+	<!--以下功能库请按需使用-->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-poly/cnchar.poly.min.js"></script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-order/cnchar.order.min.js"></script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-trad/cnchar.trad.min.js"></script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-draw/cnchar.draw.min.js"></script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-idiom/cnchar.idiom.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-radical/cnchar.radical.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-xhy/cnchar.xhy.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-words/cnchar.words.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-explain/cnchar.explain.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-voice/cnchar.voice.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-random/cnchar.random.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-input/cnchar.input.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-code/cnchar.code.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-info/cnchar.info.min.js"> </script> -->
+	<!-- <script src="https://fastly.jsdelivr.net/npm/cnchar-name/cnchar.name.min.js"> </script> -->
+	
+
+
+
+	<link href="css/csd.css" rel="stylesheet" />
+	<style type="text/css">
+
+
+		.input[type="text"] {
+			display: block;
+			color: rgb(34, 34, 34);
+			background: linear-gradient(142.99deg, rgba(217, 217, 217, 0.63) 15.53%, rgba(243, 243, 243, 0.63) 88.19%);
+			box-shadow: 0px 12px 24px -1px rgba(0, 0, 0, 0.18);
+			border-color: rgba(7, 4, 14, 0);
+			border-radius: 50px;
+			block-size: 20px;
+			margin: 7px auto;
+			padding: 18px 15px;
+			outline: none;
+			text-align: center;
+			width: 400px;
+			transition: 0.5s;
+			font-size: 35px;
+		}
+
+		.btn-class {
+			font-size: 30px; /* 设置具有.btn-class类的按钮字体大小为18像素 */
+		}
+
+		.niceButton4{
+			background-color: skyblue;
+			border: none;
+			border-radius: 12px;
+			color:rgb(56, 47, 47);
+			padding: 5px 5px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 30px;
+			margin: 10px 10px;
+			cursor: pointer;
+			transition-duration: 0.4s;
+			-webkit-transition-duration: 0.4s;
+		}
+		.niceButton4:hover{
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),
+			0 17px 50px 0 rgba(0,0,0,.19);
+		}
+
+		.divblock {
+			display: flex;
+			font-size: 30px;
+		}
+		.center-flex {
+			display: flex;
+			justify-content: center; /* 水平居中 */
+			align-items: center; /* 垂直居中 */
+			height: auto; /* 设置div高度 */
+			border: 0px solid #000; /* 边框仅为了可视化div位置 */
+			font-size: 30px;
+		}
+		
+		.char_result {
+			display: flex;
+			justify-content: center; /* 水平居中 */
+			align-items: center; /* 垂直居中 */
+			height: auto; /* 设置div高度 */
+			border: 0px solid #000; /* 边框仅为了可视化div位置 */
+			font-size: 40px;
+		}
+
+	</style>
+
+
+
+</head>
+
+<body>
+	<div class="top">
+		<div class = "top_title"><h2>&nbsp&nbsp学习效率工具</h2></div>
+		<div class="menu">
+			<a class = "top_href" href="index.html">字词积累</a>		
+			<a class = "top_href" href="https://www.coding61.com/typing/html/index/index.html" target="_blank" rel="noopener">打字练习</a>
+			<a class = "top_href" href="http://192.168.1.111:8080/word" target="_blank" rel="noopener">单词积累</a>
+			<a class = "top_href" href="https://youdao.com/webwordbook/wordlist" target="_blank" rel="noopener">有道单词</a>		
+			<a class = "top_href" href="https://readtheory.org/app/student/quiz" target="_blank" rel="noopener">英语阅读</a><br>
+		</div>
+	</div>
+	
+  <div class="div-relative">
+	<div class="device">
+		<div >
+			<br>
+			<br>
+
+
+
+			<div class='center-flex'>
+				<div class='divblock'>
+					<input id='_input' class="input" name="inputtext" type="text" placeholder = "请输入要查询的汉字" onchange="QueryDetail()">
+					<button class='niceButton4'  onclick='QueryDetail()'>查询</button>
+				</div>
+			</div>
+
+			<div >
+				<br>
+				<div id='_pinyin' class='center-flex'></div>
+				<div id='_result' class='char_result'></div>
+				<div id='drawAnimation'></div>
+			</div>
+
+			<div style="text-align: left;">
+				<p>两种最简单的打字方法:</p>
+				<p>1、依次输入每一个字的拼音的第一个字母;</p>
+				<p>2、先输入一个u，接着用h、s、p、n、z分别代表横、竖、撇、捺、折5五种笔画(“捺”包括“点”，“折”代表所有复合笔画)进行输入;</p>
+			</div>
+
+		</div>
+		
+		<br>
+
+		<div style="text-align: left;">	
+			<h3>字典工具</h3>
+			<a class = "top_href" href="https://zidian.gushici.net/" target="_blank" rel="noopener">新华字典</a>
+			<a class = "top_href" href="https://hanyu.baidu.com/" target="_blank" rel="noopener">百度汉语</a>
+		</div>
+
+		<div style="text-align: left;">	
+			<h3>易错字词</h3>
+			<a class = "top_href" href="ErrorCollect/index.html">错字本</a>
+			<a class = "top_href" href="chengyujielong.html">成语接龙</a>
+		</div>
+
+		<div style="text-align: left;">	
+			<h3>成语接龙</h3>
+			<a class = "top_href" href="chengyujielong.html">成语接龙</a>
+		</div>
+
+		<div style="text-align: left;">
+			<h3>语文课本</h3>
+			<a class = "top_href" href="Textbook/index.html">四年级上册课本</a>
+		</div>
+
+		<div style="text-align: left;">
+			<h3>语文生字</h3>
+			<a class = "top_href" href="HanziLearn/index.html">四年级上册生字</a>
+		</div>
+
+
+	</div>
+  </div>
+   
+  <script>
+	var myfonts = {}
+	var fmly_font = 'zhi';
+
+	function zidian(obj){
+		window.open('https://hanyu.baidu.com/s?wd=' + obj.innerText + '&ptype=zici')
+	}
+
+	function $(id){
+		return document.getElementById(id);
+	}
+
+	function loadFont(family) {
+		const font = new FontFace(
+			family,
+			"url(" + "./fonts/" + family + ".ttf" + ")"
+		);
+		font.load();
+		document.fonts.add(font);	
+		myfonts[family]=true;
+	}
+	
+	function setFont(family){
+		if( myfonts[family] == undefined ){		
+			console.log('正在装载字体：'+family)
+			loadFont(family)		
+		}
+	}
+
+	
+	function AddActionProcess(word){	
+		var bishun_html = ''
+		var pinyin_html = '';
+		{
+			//词语增加拼音		
+			pinyin_html = '<div style="font-size: 36px;" >';
+			if(word)
+			{
+				pinyin_html += pinyinUtil.getPinyin(word, ' ', true, true); ;
+			}	
+			pinyin_html += '</div>';
+			
+			//单个汉字增加笔顺
+			for (var id = 0; id < word.length; id++) 
+			{
+
+					bishun_html += '<span style="font-family: zhi; font-size: 60px;" onclick="zidian(this)" >' + word[id] + '</span>'		
+			}
+			_pinyin.innerHTML = pinyin_html
+			_result.innerHTML = bishun_html;
+		}
+		
+
+	}
+	loadFont(fmly_font);
+	setFont(fmly_font);
+	cnchar.setResourceBase('cnchar/cnchar-data-master/')
+
+	window.addEventListener('click', ()=>{
+    		//cnchar.voice.regonize();
+			var recognition = new webkitSpeechRecognition();
+			recognition.continuous = true;
+			recognition.interimResults = true;
+			recognition.lang = 'cmn-Hans-CN'; //普通话 (中国大陆)
+			// 开启
+			recognition.start();
+			// 停止
+			recognition.stop();
+			recognition.onresult = function(event) { 
+				console.log(event);
+			}
+			recognition.onerror = function(event) { 
+				console.log(event);
+			}
+
+		});
+	function QueryDetail() {
+			if (!_input.value) {
+				return;
+			} else {
+				current = _input.value;
+		}
+
+		
+		AddActionProcess(current);
+
+		//_pinyin.innerText = cnchar.spell(current, 'tone', 'array','low');
+		//_bihua_num.innerText = '总笔画数:' + current.stroke();
+		cnchar.draw(current, { el: '#drawAnimation', type: cnchar.draw.TYPE.ANIMATION, animation: { loopAnimate: true } })
+		cnchar.voice.speak(current);
+	}
+
+  </script>
+
+
+
+</body>
+
+</html>
+
+
