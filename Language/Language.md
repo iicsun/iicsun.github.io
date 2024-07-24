@@ -71,6 +71,9 @@
 
 
 # 6-KET
+## 官方网站
+https://www.cambridgeenglish.org/
+
 ## KET与蓝思值
 ```
 KET的蓝思值阅读范围600-700L，PET是700-1100L
