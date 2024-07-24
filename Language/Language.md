@@ -74,6 +74,9 @@
 ## 官方网站
 https://www.cambridgeenglish.org/
 
+## 自测试网页
+https://www.cambridgeenglish.org/test-your-english
+
 ## KET与蓝思值
 ```
 KET的蓝思值阅读范围600-700L，PET是700-1100L
