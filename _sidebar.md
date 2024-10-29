@@ -1,5 +1,6 @@
 <!-- Docsify/_sidebar.md -->
-
+* [AI工具](/AI/AI.md) 
+* 
 * [网盘资源](/WebDisk/WebDisk.md) 
   
 * [打字](/TypeLearn/TypeLearn.md) 
