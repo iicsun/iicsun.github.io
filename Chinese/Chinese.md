@@ -1,13 +1,12 @@
 
-# 中文学习
+# 中文
 
-# 古代文学知识图谱
+# 1 古代文学知识图谱
 
 1、[古代文学知识图谱](https://cnkgraph.com/)
 
-# 工具
 
-## 搜索引擎
+## 1.1 搜索引擎
 1. [微软搜索](https://cn.bing.com/?scope=web&FORM=ANNTH1&pc=LCTS)
 2. [文心一言](https://yiyan.baidu.com/)
 3. [学而思九章大模型](https://playground.xes1v1.cn/MathGPT)

@@ -196,3 +196,80 @@ https://pan.baidu.com/s/1ZVjgXpbhZ_DRWfX0zxSMbQ?pwd=kimi
 十套英语名著与课程精讲
 链接:https://pan.baidu.com/s/1u0iiYnRPLj9c5ulTA1hXGg?pwd=iv8v?提取码:iv8v
 <br>
+
+----------------------------------------------------------------------------
+小公主苏菲亚第一季 Sofia the First Season 1 英文版全集下载
+链接：https://pan.baidu.com/share/init?surl=bbkFL0
+提取码：a5di
+
+小公主苏菲亚第二季 Sofia the First Season 2 全28集
+链接：https://pan.baidu.com/share/init?surl=gebGvS3
+提取码：9s8j
+
+小公主苏菲亚第三季1080p mkv 29集 Sofia the First
+链接：https://pan.baidu.com/share/init?surl=kiwrfa-Q7_n_JwTvgaBT2g
+提取码： e10y
+
+-------------------------------------------------------------------------
+小屁孩日记电子书1-16全集（PDF)
+链接:https://pan.baidu.com/s/1Bi6cxyykhK5N2RbWnTStQg 
+提取码:9thm
+
+小屁孩日记1-11电子书音频链接：
+https://pan.baidu.com/s/1WUbG2o4VqLVdf86QgAD-6A 
+提取码：d6m8
+
+小屁孩日记电影1-3
+链接：https://pan.baidu.com/s/1VptutY5bs8DtbN_MT5xuxQ 
+提取码：21hp
+
+
+---------------------------------------------------------------------
+https://www.schooltube.com/
+
+TIME for Kids - 专门为小学生提供新闻报道，帮助他们了解世界。
+网址: timeforkids.com
+
+Storyline Online - 提供名人朗读的在线故事书，有助于提高听力和阅读能力。
+网址: storylineonline.net
+原版英语启蒙路线资料大合集，太全了！英语启蒙的资料基本都有了！赶快收藏链接以免找不到了！
+
+
+1. 英语分级绘本：RAZ、牛津树、海尼曼、红火箭、大猫、廖彩杏、我的图书馆、I can read、国家地理、悠游阅读成长计划、培生等，包括PDF、音频、视频、精讲课等全套
+链接：https://pan.baidu.com/s/1TDLuwt6yCNC1kGh2PaY85Q?pwd=8888 
+提取码：8888 
+2. 英语启蒙动画片：小狐狸 Little Fox、小猪佩奇、Wow English、Yakka Dee、DiDi's day、Bluey、蓝色小考拉、Maisy小鼠波波、Big Muzzy等，以及部分动画片台词
+链接：https://pan.baidu.com/s/1ZKgPuGnNRFm2Pe3ZdtnhGA?pwd=8888 
+提取码：8888 
+3. 英语启蒙儿歌：SSS、鹅妈妈、清华英语语感启蒙、TPR儿歌等
+链接：https://pan.baidu.com/s/1KaxRV03b0Vp8RQJ6ize3rA?pwd=8888 
+提取码：8888 
+4. 自然拼读及口语：Oxford Phonics、GO GO Phonics、speed phonics、蒲公英 Phonics Kids Book、雪梨自然拼读音标发音、瑞格叔叔自然拼读法、孙志立英语口语等
+链接：https://pan.baidu.com/s/1_y64DVaWkd85vIwUwXFsaQ?pwd=8888 
+提取码：8888
+5. 英语语法：grammar in use、Oxford Grammar Friends、朗文Side by Side、学而思30课时学完小学语法、雪梨初级英语语法课
+链接：https://pan.baidu.com/s/1YKd82GAesycFL2rB4b9pUQ?pwd=8888 
+提取码：8888 
+6. 单词：1000词2000词4000词、220 Sight Words、3099阅读写作核心1000词等
+链接：https://pan.baidu.com/s/1Pt1rEMH8MmtITQcAC-_p_A?pwd=8888 
+提取码：8888 
+7. 英语原版教材：Reach Higher、Think、kid's box、LET'S GO、Power Up、Reading Explorer、美国幼儿园课本教材、新加坡数学、Wonderful World、新概念青少版
+链接：https://pan.baidu.com/s/1gM6Zs7oWsRldWa5wrYmncQ?pwd=8888 
+提取码：8888 
+8. 百套精选章节书：桥梁、初章、中章、高章书，按级别分类
+链接：https://pan.baidu.com/s/1q9MVQ3GQ9TWCBtFe1PavHA?pwd=8888 
+提取码：8888 
+9. 英语写作教材：Great Writing、Write source、Successful writing
+链接：https://pan.baidu.com/s/1Xxk53NRn4w1KqkYvWZ4q_Q?pwd=8888 
+提取码：8888 
+10. 英语课件：51talk L0-L6、susan教英语
+链接：https://pan.baidu.com/s/1FD_6McIaIwPxbvj2RKBW1w?pwd=8888 
+提取码：8888 
+11. 剑桥五级考试资料KET PET FCE CAE CPE等
+链接：https://pan.baidu.com/s/1qRATuNYD6pIOCIC6LyJ6sg?pwd=8888 
+提取码：8888
+
+【最新更新链接】：以上链接如有失效或者想查看最新更新内容看此链接。
+链接：https://pan.baidu.com/s/1IZqzPdWNUt8CPsZ1_VCEMg?pwd=8888 
+提取码：8888
+
